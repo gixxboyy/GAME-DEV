@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -9,6 +9,9 @@ public class MovableObjectMotor : MonoBehaviour {
     private Animator objectAnimator;     //reference to the Animator on this object  Set in Start method
     private Rigidbody objectRigidbody;   //reference to the Rigidbody on this object  Set in Start method
 
+    [Tooltip("Pengali kecepatan untuk parameter Speed_f. Kecil (mis. 0.2) = animasi jalan santai, 1 = sesuai kecepatan asli (lari).")]
+    public float animationSpeedMultiplier = 1f;
+
     void Start () {
         agent = GetComponent<NavMeshAgent>();         //store a reference to the NavMeshAgent on this object
         objectAnimator = GetComponent<Animator>();    //store a reference to the Animator on this object
@@ -18,7 +21,7 @@ public class MovableObjectMotor : MonoBehaviour {
 	void Update () {
 		if(agent.velocity.magnitude > 0)  //check if we are moving
         {
-            objectAnimator.SetFloat("Speed_f", agent.velocity.magnitude);  //pass the speed we are moving to the Animator on this object
+            objectAnimator.SetFloat("Speed_f", agent.velocity.magnitude * animationSpeedMultiplier);  //pass the speed we are moving to the Animator on this object
             objectRigidbody.constraints = RigidbodyConstraints.None;       // make sure there are no translation contraints on the Rigidbody
             objectRigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ; // make the Rigidbody can only rotate on the Y axis
         }

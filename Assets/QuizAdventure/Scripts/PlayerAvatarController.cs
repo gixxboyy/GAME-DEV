@@ -1,7 +1,10 @@
-﻿using System;
+using System;
 using UnityEngine;
 using UnityEngine.AI; // Wajib untuk membaca NavMeshAgent
 
+// Update script ini dijalankan SETELAH MovableObjectMotor (order 0), supaya nilai Speed_f dari WASD
+// tidak ditimpa motor sebelum Animator membacanya.
+[DefaultExecutionOrder(100)]
 public class PlayerAvatarController : MonoBehaviour
 {
     [Header("Movement Settings")]
@@ -78,7 +81,9 @@ public class PlayerAvatarController : MonoBehaviour
 
             // Gerakkan posisi fisik karakter
             Vector3 moveDirection = direction * keyboardSpeed * Time.deltaTime;
-            transform.Translate(moveDirection, Space.World);
+            // Pakai NavMeshAgent.Move supaya Player tetap di NavMesh (tidak menembus gedung)
+            if (agent != null && agent.isOnNavMesh) agent.Move(moveDirection);
+            else transform.Translate(moveDirection, Space.World);
 
             // Putar badan karakter sesuai arah pergerakan tombol WASD
             Quaternion targetRotation = Quaternion.LookRotation(direction);
