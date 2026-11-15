@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/GixBoy/Scenes/MainMenu.unity
+    guid: 70d63eeb6ed112a4da5c11b2f124bfcd
+  - enabled: 1
+    path: Assets/GixBoy/Scenes/GixBoy_Manado.unity
+    guid: 15bd0e256845fe04689b87b27283995c
+  - enabled: 1
     path: Assets/GamingWorkshop/Scenes/Activity1Start.unity
     guid: 686b94843ee403a43ada6ded6c158da2
   - enabled: 1

@@ -80,7 +80,10 @@ public class PlayerAvatarController : MonoBehaviour
             }
 
             // Gerakkan posisi fisik karakter
-            Vector3 moveDirection = direction * keyboardSpeed * Time.deltaTime;
+            // kecepatan jalan/lari dari PlayerSprint (kalau ada)
+            var sprint = GetComponent<PlayerSprint>();
+            float speed = sprint != null ? sprint.CurrentSpeed : keyboardSpeed;
+            Vector3 moveDirection = direction * speed * Time.deltaTime;
             // Pakai NavMeshAgent.Move supaya Player tetap di NavMesh (tidak menembus gedung)
             if (agent != null && agent.isOnNavMesh) agent.Move(moveDirection);
             else transform.Translate(moveDirection, Space.World);
@@ -108,7 +111,8 @@ public class PlayerAvatarController : MonoBehaviour
         // Jika WASD ditekan ATAU agen klik mouse sedang bergerak
         if (isWASDPressed || isNavMeshMoving)
         {
-            anim.SetFloat("Speed_f", 1f); // Parameter yang sesuai di Animator
+            var sprint = GetComponent<PlayerSprint>();
+            anim.SetFloat("Speed_f", sprint != null ? sprint.AnimSpeed : 1f); // 0.3 = jalan, 1 = lari
         }
         else
         {
@@ -118,6 +122,7 @@ public class PlayerAvatarController : MonoBehaviour
 
     private void OnClickDown(object source, EventArgs args)
     {
+        if (!enabled || agent == null || !agent.isActiveAndEnabled || !agent.isOnNavMesh) return; // mis. sedang menyetir pickup
         Ray ray = mainCam.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
@@ -136,6 +141,7 @@ public class PlayerAvatarController : MonoBehaviour
 
     private void OnEscPressed(object source, EventArgs args)
     {
+        if (agent == null || !agent.isActiveAndEnabled || !agent.isOnNavMesh) return;
         if (agent != null)
         {
             agent.ResetPath();

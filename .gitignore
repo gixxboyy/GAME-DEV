@@ -73,3 +73,10 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Screenshot uji dari editor
+/[Aa]ssets/Screenshots/
+/[Aa]ssets/Screenshots.meta
+
+# Backup Blender
+*.blend1

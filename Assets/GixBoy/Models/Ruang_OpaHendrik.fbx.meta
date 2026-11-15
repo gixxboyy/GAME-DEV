@@ -1,0 +1,326 @@
+fileFormatVersion: 2
+guid: 2b5814ab8a5a5ca4fb4a25fc50edd870
+ModelImporter:
+  serializedVersion: 24600
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_Besi
+    second: {fileID: 2100000, guid: e6a66da5e48b8364fb6403cab42d1e65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_BesiGelap
+    second: {fileID: 2100000, guid: 3900f2381fe7ab744bac77e14f344afd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_Beton
+    second: {fileID: 2100000, guid: 2cc608e6287c3694f91d4c36b0b00c5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_BolaLampu
+    second: {fileID: 2100000, guid: c355f9c3901b8db40b7be679f5f84af7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_BotolKaca
+    second: {fileID: 2100000, guid: b005fb7b146f4824ca48476aaab08e71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_BrankasHijau
+    second: {fileID: 2100000, guid: 8c959e76e6ab8dc43a63a536e3edd2f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_CatMerahTua
+    second: {fileID: 2100000, guid: dff625a370820734d9561a7529b5bd0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_CatMobilBiru
+    second: {fileID: 2100000, guid: 9c099830e9c16fe4f92b1450ba38b8f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_DindingBawah
+    second: {fileID: 2100000, guid: 6beacefa4b776e444b263cfe0127cd84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_DindingBeton
+    second: {fileID: 2100000, guid: b9cf4f512d8675649ae388340b279b6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_DrumBiru
+    second: {fileID: 2100000, guid: c2496c971030c604eb9ab555dada1a42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_DrumHijau
+    second: {fileID: 2100000, guid: 808953e15a7943b498b674a3f73ae681, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_Emas
+    second: {fileID: 2100000, guid: 28a079f868a710d4d8622d5867d9b977, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_Hitam
+    second: {fileID: 2100000, guid: 808c1799f9d55b84cb22f9e7bb0d4b99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_JerikenBiru
+    second: {fileID: 2100000, guid: 711a17532af22f847a6e2df00207e01f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_JerikenHijau
+    second: {fileID: 2100000, guid: e5afe5549beeaa24a85c96fcc04c6b50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_JerikenMerah
+    second: {fileID: 2100000, guid: 60f926a058088284fb1345b7dc07fc10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_Kaca
+    second: {fileID: 2100000, guid: 9289ce1d0f3ae364ea02b565f5e4c8ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_Karat
+    second: {fileID: 2100000, guid: 75dbbb91297d18d479bb54bfe6390d1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_Karet
+    second: {fileID: 2100000, guid: 87ea6730bfae9e6488f49b9f2e50295a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_KarpetMerah
+    second: {fileID: 2100000, guid: 291441ed1fdec5d40a950f81c5663b7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_KayuGelap
+    second: {fileID: 2100000, guid: 42be5b9fcf73eb34c82e72c2a9da1f79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_KayuMeja
+    second: {fileID: 2100000, guid: fae6042a12585d846a5f1148e927c4bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_Keramik
+    second: {fileID: 2100000, guid: ea03f3c32869c34418aceb4e86cebcc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_Kertas
+    second: {fileID: 2100000, guid: 0f66fb606eb138e4b8b2d5b680be7722, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_Krem
+    second: {fileID: 2100000, guid: 4f3f744f798033949a913fb20644052d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_KulitKursi
+    second: {fileID: 2100000, guid: 2beacdbf459b54d4eac07842294c0824, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_Kuning
+    second: {fileID: 2100000, guid: 2052de5eb6da3d047942782508b207ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_KusenBesi
+    second: {fileID: 2100000, guid: bcdbbe626e6895d498c38726a941513c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_LampuKap
+    second: {fileID: 2100000, guid: b5491d37260d0e0439b900922c333d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_MerahPerkakas
+    second: {fileID: 2100000, guid: 0a6ad33881c299c46a16c0dac2b8d9df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_MesinAbu
+    second: {fileID: 2100000, guid: 1e9d43c880009f24f95d3ad1961b52cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_NodaOli
+    second: {fileID: 2100000, guid: 7834dc36231380f49a489531fbd85164, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_Palet
+    second: {fileID: 2100000, guid: 6e350a0b977d7f04b820ca438a04ca3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_PapanBerlubang
+    second: {fileID: 2100000, guid: caa9cd96e85f44d478f89ff762c082ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_PintuBesi
+    second: {fileID: 2100000, guid: f32db63784984614685d529aa276e50f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_Plafon
+    second: {fileID: 2100000, guid: 73d6bf3e58a07a8428002af191fea55b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_PompaMerah
+    second: {fileID: 2100000, guid: ad37e02cf51c1cb42ba791aad7379780, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_RagumBiru
+    second: {fileID: 2100000, guid: 77e1ff722cdb69e47ad2835678297525, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_Seng
+    second: {fileID: 2100000, guid: 7200aa9007f6bee4eb8b4dc543ade31b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_SengBerkarat
+    second: {fileID: 2100000, guid: f4daa9e59708e7744a51bb6d0a9f702b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RO_Uang
+    second: {fileID: 2100000, guid: 7d0fb2d066e2dd849a2db17eb78695e5, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+    searchTexturesGlobally: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    preBakeConvexCollisionMesh: 0
+    preBakeTriangleCollisionMesh: 0
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
